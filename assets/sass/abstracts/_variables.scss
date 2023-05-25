@@ -1,0 +1,46 @@
+
+$poppins: 'Poppins', sans-serif;
+
+$black-color: #000000;
+$white-color: #FFFFFF;
+$sonicsilver-color: #7A7777;
+$light-white-color: #EEF4F9;
+
+
+//Flex Display
+$flex: flex;
+$inline-flex: inline-flex;
+
+//Flex Direction
+$flex-row: row;
+$row-reverse: row-reverse;
+$flex-column: column;
+$column-reverse: column-reverse;
+
+//Flex Wrap
+$flex-nowrap: nowrap;
+$flex-wrap: wrap;
+$flex-wrap-reverse: wrap-reverse;
+
+// Justify Content
+$justify-start: flex-start;
+$justify-end: flex-end;
+$justify-center: center;
+$justify-between: space-between;
+$justify-around: space-around;
+$justify-evenly: space-evenly;
+
+// Align Items
+$items-start: flex-start;
+$items-end: flex-end;
+$items-center: center;
+$items-baseline: baseline;
+$items-stretch: stretch;
+
+//Align Content
+$align-start: flex-start;
+$align-end: flex-end;
+$align-center: center;
+$align-between: space-between;
+$align-around: space-around;
+$align-stretch: stretch;

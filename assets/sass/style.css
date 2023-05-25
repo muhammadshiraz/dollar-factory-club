@@ -1,0 +1,283 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+  position: relative;
+  overflow-x: hidden;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.align-start {
+  align-content: flex-start;
+}
+
+.align-end {
+  align-content: flex-end;
+}
+
+.align-center {
+  align-content: center;
+}
+
+.align-between {
+  align-content: space-between;
+}
+
+.align-around {
+  align-content: space-around;
+}
+
+.align-stretch {
+  align-content: stretch;
+}
+
+header {
+  position: relative;
+}
+header #signup-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%);
+  border-radius: 2px;
+}
+header .border-line {
+  border: 1px solid #232C3B;
+  width: 1px;
+  height: 21px;
+}
+
+.bm-menu {
+  width: 100% !important;
+}
+
+.bm-menu-wrap {
+  height: 100% !important;
+  top: 0;
+}
+
+.bm-item-list {
+  left: 0 !important;
+}
+.bm-item-list .bm-item {
+  text-align: left;
+}
+.bm-item-list .bm-item ul li {
+  padding: 12px 0;
+}
+.bm-item-list .bm-item ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.burger-menu {
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 999999;
+  padding: 20px 30px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.footer .heading-3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  color: #000000;
+}
+.footer .paragraph-2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #7A7777;
+}
+
+.homepage {
+  position: relative;
+  background: linear-gradient(180deg, #01327B 0%, #001330 100%);
+  z-index: 0;
+}
+.homepage::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.homepage .join-community {
+  box-shadow: 0px 0px 64px rgba(71, 146, 255, 0.44);
+}
+
+.hero {
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/images/hero-wavy.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  right: 0;
+  background-position: bottom right;
+  top: 220px;
+  z-index: -1;
+}
+
+.get-started-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+  border-radius: 2px;
+}
+
+.watch-video-btn {
+  border: 1px solid #266FD9;
+  border-radius: 2px;
+}
+
+.subscribe-btn {
+  border: 1px solid #2880FF;
+  border-radius: 2px;
+}/*# sourceMappingURL=style.css.map */

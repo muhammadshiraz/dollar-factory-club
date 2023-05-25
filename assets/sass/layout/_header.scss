@@ -1,0 +1,42 @@
+header {
+    position: relative;
+    #signup-btn {
+        background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%);
+        border-radius: 2px;
+    }
+    .border-line {
+        border: 1px solid #232C3B;
+        width: 1px;
+        height: 21px;
+    }
+}
+.bm-menu {
+    width: 100% !important;
+}
+.bm-menu-wrap {
+    height: 100% !important;
+    top: 0;
+}
+.bm-item-list {
+    left: 0 !important;
+    .bm-item {
+        text-align: left;
+        ul {
+            li {
+                padding: 12px 0;
+                a {
+                    text-decoration: none;
+                    color: $black-color;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+.burger-menu {
+    background-color: $white-color;
+    position: relative;
+    z-index: 999999;
+    padding: 20px 30px;
+}

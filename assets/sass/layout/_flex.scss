@@ -1,0 +1,78 @@
+.flex {
+    display: $flex;
+}
+.inline-flex {
+    display: $inline-flex;
+}
+.flex-row {
+    flex-direction: $flex-row;
+}
+.flex-row-reverse {
+    flex-direction: $row-reverse;
+}
+.flex-col {
+    flex-direction: $flex-column;
+}
+.flex-col-reverse {
+    flex-direction: $column-reverse;
+}
+.flex-nowrap {
+    flex-wrap: $flex-nowrap;
+}
+.flex-wrap {
+    flex-wrap: $flex-wrap;
+}
+.flex-wrap-reverse {
+    flex-wrap: $flex-wrap-reverse;
+}
+.justify-start {
+    justify-content: $justify-start;
+}
+.justify-end {
+    justify-content: $justify-end;
+}
+.justify-center {
+    justify-content: $justify-center;
+}
+.justify-between {
+    justify-content: $justify-between;
+}
+.justify-around {
+    justify-content: $justify-around;
+}
+.justify-evenly {
+    justify-content: $justify-evenly;
+}
+.items-start {
+    align-items: $items-start;
+}
+.items-end {
+    align-items: $items-end;
+}
+.items-center {
+    align-items: $items-center;
+}
+.items-baseline {
+    align-items: $items-baseline;
+}
+.items-stretch {
+    align-items: $items-stretch;
+}
+.align-start {
+    align-content: $align-start;
+}
+.align-end {
+    align-content: $align-end;
+}
+.align-center {
+    align-content: $align-center;
+}
+.align-between {
+    align-content: $align-between;
+}
+.align-around {
+    align-content: $align-around;
+}
+.align-stretch {
+    align-content: $align-stretch;
+}
