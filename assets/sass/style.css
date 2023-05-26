@@ -246,7 +246,7 @@ header .border-line {
   background-size: cover;
   z-index: -1;
 }
-.homepage .join-community {
+.homepage .join-community-box {
   box-shadow: 0px 0px 64px rgba(71, 146, 255, 0.44);
 }
 
@@ -267,12 +267,22 @@ header .border-line {
   z-index: -1;
 }
 
-.get-started-btn {
+.get-started-btn-01 {
   background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
   border-radius: 2px;
 }
 
-.watch-video-btn {
+.get-started-btn-02 {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #02D7BD 111.82%) !important;
+  border-radius: 2px;
+}
+
+.get-started-btn-03 {
+  background: #FFFFFF !important;
+  border-radius: 2px;
+}
+
+.transparent-btn {
   border: 1px solid #266FD9;
   border-radius: 2px;
 }
@@ -280,4 +290,32 @@ header .border-line {
 .subscribe-btn {
   border: 1px solid #2880FF;
   border-radius: 2px;
+}
+
+.people-say-swiper .swiper-slide {
+  border-radius: 11px;
+  background: #001B44;
+}
+
+.swiper-wrapper {
+  padding-bottom: 15rem !important;
+}
+
+.ready-to-get-started {
+  background: linear-gradient(97.02deg, #00FF94 -0.78%, #266FD9 97.53%);
+  border-radius: 21px;
+}
+
+.customer-support {
+  background-image: url("../../assets/images/customer-support-wavy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+.join-community {
+  background-image: url("../../assets/images/join-community-wavy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
 }/*# sourceMappingURL=style.css.map */
