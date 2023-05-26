@@ -1,6 +1,4 @@
-<?php
-  include "./components/hero/index.php";
-?>
+<?php include "./components/hero/index.php"; ?>
 <section class="makes-us-different poppins pt-40">
   <div class="container mx-auto px-24">
     <div class="grid grid-cols-2 gap-20">
@@ -236,3 +234,4 @@
 <?php include "./components/ultimate-featues/index.php"; ?>
 <?php include "./components/join-community/index.php"; ?>
 <?php include "./components/ready-to-get-started/index.php"; ?>
+<?php include "./components/faq/index.php"; ?>

@@ -18,15 +18,15 @@
       <div class="flex flex-row justify-between items-center">
         <a href="http://localhost/dollar-factory-club"><img src="./assets/images/logo.svg" class="lg:w-60" alt="Dollar Factory Club" /></a>
         <div class="flex flex-row justify-end items-center">
-          <nav>
+          <nav class="mr-5">
             <ul class="poppins text-white text-base font-medium flex flex-row gap-5">
               <li><a href="about">About us</a><li>
               <li><a href="learn-earn" class="flex flex-row justify-between items-center gap-2">Learn & Earn <img src="./assets/images/menu-dropdown.png" alt="Learn & Earn" /></a><li>
               <li><a href="pricing">Pricing</a><li>
-              <li><a href="help" class="flex flex-row justify-between items-center gap-2">Help <img src="./assets/images/menu-dropdown.png" alt="Help" /></a><li>
+              <li><a href="help" class="flex flex-row justify-between items-center gap-2">Help <img src="./assets/images/menu-dropdown.png" alt="Help" /></a></li>
             </ul>
           </nav>          
-          <div class="border-line mr-[1.25rem]"></div>
+          <div class="border-line mr-5"></div>
           <div class="flex flex-row poppins gap-5">
             <button type="button" onclick="location.href = 'login.php';" class="text-white text-base font-medium">Log In</button>
             <button type="button" onclick="location.href = 'sign-up.php';" id="signup-btn" class="text-white text-base font-medium px-5 py-2">Sign Up</button>
