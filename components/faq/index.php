@@ -1,6 +1,6 @@
 <section class="poppins faq my-24 pb-32">
-  <h3 class="text-4xl text-white text-center font-semibold leading-snug mb-5">Frequently Asked <br/> Questions</h3>
-  <div class="container mx-auto px-24 mt-16">
+  <h3 class="text-4xl text-white text-center font-semibold leading-snug mb-5">Frequently Asked <br/> Questions</h3>  
+  <div class="container mx-auto xl:px-24 px-9 mt-16">
     <ul class="accordion-list">
         <li>
             <h3><span class="ml-20">How much profit can i make?</span></h3>
