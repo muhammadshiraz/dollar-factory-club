@@ -178,9 +178,9 @@
 <section class="full-screen-wavy">
   <img src="./assets/images/full-screen-wavy.png" class="w-full" alt="We outperform even sample" />
 </section>
-<section class="poppins relative pb-32 choose-your-plan">
-  <h3 class="text-4xl text-white text-center font-semibold leading-snug mb-5"><span class="text-[#2880FF]">What people say</span> about us?</h3>
+<section class="poppins relative pb-32 choose-your-plan">  
   <div class="mx-auto px-7 my-12">
+    <h3 class="xl:text-4xl text-2xl text-white text-center font-semibold leading-snug mb-5"><span class="text-[#2880FF]">What people say</span> about us?</h3>
     <!-- Slider main container -->
     <swiper-container class="people-say-swiper" space-between="30" slides-per-view="3">
       <swiper-slide class="swiper-slide flex flex-col justify-between items-start gap-y-6 pt-16 pb-8 px-8">
