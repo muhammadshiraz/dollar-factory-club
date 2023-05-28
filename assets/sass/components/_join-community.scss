@@ -1,6 +1,25 @@
 .join-community {
-    background-image: url('../../assets/images/join-community-wavy.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center right;
+    &.is-bg {
+        background-image: url('../../assets/images/join-community-wavy.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center right;
+    }
+    &.is-join-bg {     
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -145px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url('../../assets/images/full-screen-wavy.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center right;
+        }        
+        padding-bottom: 30rem;
+    }
 }

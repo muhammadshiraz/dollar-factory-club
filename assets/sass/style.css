@@ -334,11 +334,27 @@ header .border-line {
   z-index: -1;
 }
 .innerpage .is-bg {
-  background-image: url(../../assets/images/full-screen-wavy.png);
+  background-image: url("../../assets/images/full-screen-wavy.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
   padding-bottom: 240px;
+}
+.innerpage .difficulty-levels .difficulty-levels-box {
+  position: relative;
+  z-index: 999;
+}
+.innerpage .difficulty-levels .difficulty-levels-box::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, #051225 0%, #00267B 100%);
+  opacity: 0.7;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  z-index: -1;
 }
 
 .hero {
@@ -409,10 +425,27 @@ header .border-line {
   background-position: right bottom;
 }
 
-.join-community {
+.join-community.is-bg {
   background-image: url("../../assets/images/join-community-wavy.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center right;
+}
+.join-community.is-join-bg {
+  position: relative;
+  padding-bottom: 30rem;
+}
+.join-community.is-join-bg::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -145px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../../assets/images/full-screen-wavy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   background-position: center right;
 }
 

@@ -240,6 +240,6 @@
 </section>
 <?php include "./components/customer-support/index.php"; ?>
 <?php include "./components/ultimate-featues/index.php"; ?>
-<?php include "./components/join-community/index.php"; ?>
+<?php $isbg = "is-bg"; include "./components/join-community/index.php"; ?>
 <?php include "./components/ready-to-get-started/index.php"; ?>
 <?php include "./components/faq/index.php"; ?>

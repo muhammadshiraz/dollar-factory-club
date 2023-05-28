@@ -1,4 +1,4 @@
-<section class="poppins relative xl:py-24 py-8 join-community">
+<section class="poppins relative xl:py-24 py-8 join-community <?php echo $isbg; ?>">
   <div class="mx-auto xl:pr-24 pr-9">
     <div class="grid xl:grid-cols-2 grid-cols-1 gap-x-36 items-center">
       <div class="col-span-1 xl:mb-0 mb-12">
