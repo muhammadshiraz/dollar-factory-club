@@ -1,0 +1,25 @@
+.innerpage {
+    position: relative;
+    background: linear-gradient(180deg, #01327B 0%, #001330 100%);
+    z-index: 0;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/images/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+    .is-bg {
+        background-image: url(../../assets/images/full-screen-wavy.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        padding-bottom: 240px;
+    }
+}

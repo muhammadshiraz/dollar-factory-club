@@ -164,7 +164,7 @@
       <div class="col-span-1">
         <h3 class="xl:text-4xl text-2xl text-white text-left font-semibold leading-snug">We outperform <br /> even sample</h3>
         <p class="text-base font-normal text-white text-left leading-relaxed my-5 xl:w-2/3 w-full">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>            
-        <div class="flex xl:flex-row flex-col xl:gap-y-0 gap-y-5 gap-x-8 justify-start items-center xl:mt-20 mt-8">
+        <div class="flex xl:flex-row flex-col xl:gap-y-0 gap-y-5 gap-x-8 justify-start items-center xl:mt-8 mt-5">
           <?php include "./components/button/get-started-02.php"; ?>
           <button type="button" class="text-white xl:text-lg text-base font-medium px-6 py-4 flex flex-row justify-center items-center transparent-btn xl:w-max w-full">Explore Courses</button>
         </div>
@@ -178,54 +178,62 @@
 <section class="full-screen-wavy">
   <img src="./assets/images/full-screen-wavy.png" class="w-full" alt="We outperform even sample" />
 </section>
-<section class="poppins relative pb-32 choose-your-plan">  
-  <div class="mx-auto px-7 my-12">
-    <h3 class="xl:text-4xl text-2xl text-white text-center font-semibold leading-snug mb-5"><span class="text-[#2880FF]">What people say</span> about us?</h3>
+<section class="poppins relative xl:pb-32 pb-16 choose-your-plan">  
+  <div class="mx-auto px-7">
+    <h3 class="xl:text-4xl text-2xl text-white text-center font-semibold leading-snug xl:mb-12 mb-5"><span class="text-[#2880FF]">What people say</span> about us?</h3>
     <!-- Slider main container -->
-    <swiper-container class="people-say-swiper" space-between="30" slides-per-view="3">
-      <swiper-slide class="swiper-slide flex flex-col justify-between items-start gap-y-6 pt-16 pb-8 px-8">
-        <h5 class="text-white text-left text-2xl font-semibold leading-snug">DFC helped to make profits <br /> even in a bearish market</h5>
-        <p class="text-[#A3A3A3] font-normal text-lg text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
+    <swiper-container class="people-say-swiper" space-between="30">
+      <swiper-slide class="swiper-slide flex flex-col justify-between items-start xl:gap-y-6 gap-y-3 xl:pt-16 pt-8 xl:pb-8 pb-5 px-8">
+        <h5 class="text-white text-left xl:text-2xl text-xl font-semibold leading-snug">DFC helped to make profits <br class="xl:block hidden" /> even in a bearish market</h5>
+        <p class="text-[#A3A3A3] font-normal xl:text-lg text-base text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
         <div class="flex flex-row justify-between items-center gap-x-5">
           <img src="./assets/images/micheal-scolfield-01.png" alt="Micheal Scolfield" />
-          <span class="text-[#00FF94] font-medium	text-xl">Micheal Scolfield</span>
+          <span class="text-[#00FF94] font-medium	xl:text-xl text-base">Micheal Scolfield</span>
         </div>
       </swiper-slide>
-      <swiper-slide class="swiper-slide flex flex-col justify-between items-start gap-y-6 pt-16 pb-8 px-8">      
-        <h5 class="text-white text-left text-2xl font-semibold leading-snug">DFC helped to make profits <br /> even in a bearish market</h5>
-        <p class="text-[#A3A3A3] font-normal text-lg text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
+      <swiper-slide class="swiper-slide flex flex-col justify-between items-start xl:gap-y-6 gap-y-3 xl:pt-16 pt-8 xl:pb-8 pb-5 px-8">
+        <h5 class="text-white text-left xl:text-2xl text-xl font-semibold leading-snug">DFC helped to make profits <br class="xl:block hidden" /> even in a bearish market</h5>
+        <p class="text-[#A3A3A3] font-normal xl:text-lg text-base text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
         <div class="flex flex-row justify-between items-center gap-x-5">
           <img src="./assets/images/micheal-scolfield-02.png" alt="Micheal Scolfield" />
-          <span class="text-[#00FF94] font-medium	text-xl">Micheal Scolfield</span>
+          <span class="text-[#00FF94] font-medium	xl:text-xl text-base">Micheal Scolfield</span>
         </div>
       </swiper-slide>
-      <swiper-slide class="swiper-slide flex flex-col justify-between items-start gap-y-6 pt-16 pb-8 px-8">      
-        <h5 class="text-white text-left text-2xl font-semibold leading-snug">DFC helped to make profits <br /> even in a bearish market</h5>
-        <p class="text-[#A3A3A3] font-normal text-lg text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
+      <swiper-slide class="swiper-slide flex flex-col justify-between items-start xl:gap-y-6 gap-y-3 xl:pt-16 pt-8 xl:pb-8 pb-5 px-8">
+        <h5 class="text-white text-left xl:text-2xl text-xl font-semibold leading-snug">DFC helped to make profits <br class="xl:block hidden" /> even in a bearish market</h5>
+        <p class="text-[#A3A3A3] font-normal xl:text-lg text-base text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
         <div class="flex flex-row justify-between items-center gap-x-5">
           <img src="./assets/images/micheal-scolfield-03.png" alt="Micheal Scolfield" />
-          <span class="text-[#00FF94] font-medium	text-xl">Micheal Scolfield</span>
+          <span class="text-[#00FF94] font-medium	xl:text-xl text-base">Micheal Scolfield</span>
         </div>
       </swiper-slide>
-      <swiper-slide class="swiper-slide flex flex-col justify-between items-start gap-y-6 pt-16 pb-8 px-8">      
-        <h5 class="text-white text-left text-2xl font-semibold leading-snug">DFC helped to make profits <br /> even in a bearish market</h5>
-        <p class="text-[#A3A3A3] font-normal text-lg text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
+      <swiper-slide class="swiper-slide flex flex-col justify-between items-start xl:gap-y-6 gap-y-3 xl:pt-16 pt-8 xl:pb-8 pb-5 px-8">
+        <h5 class="text-white text-left xl:text-2xl text-xl font-semibold leading-snug">DFC helped to make profits <br class="xl:block hidden" /> even in a bearish market</h5>
+        <p class="text-[#A3A3A3] font-normal xl:text-lg text-base text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
+        <div class="flex flex-row justify-between items-center gap-x-5">
+          <img src="./assets/images/micheal-scolfield-01.png" alt="Micheal Scolfield" />
+          <span class="text-[#00FF94] font-medium	xl:text-xl text-base">Micheal Scolfield</span>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="swiper-slide flex flex-col justify-between items-start xl:gap-y-6 gap-y-3 xl:pt-16 pt-8 xl:pb-8 pb-5 px-8">
+        <h5 class="text-white text-left xl:text-2xl text-xl font-semibold leading-snug">DFC helped to make profits <br class="xl:block hidden" /> even in a bearish market</h5>
+        <p class="text-[#A3A3A3] font-normal xl:text-lg text-base text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
         <div class="flex flex-row justify-between items-center gap-x-5">
           <img src="./assets/images/micheal-scolfield-02.png" alt="Micheal Scolfield" />
-          <span class="text-[#00FF94] font-medium	text-xl">Micheal Scolfield</span>
+          <span class="text-[#00FF94] font-medium	xl:text-xl text-base">Micheal Scolfield</span>
         </div>
       </swiper-slide>
-      <swiper-slide class="swiper-slide flex flex-col justify-between items-start gap-y-6 pt-16 pb-8 px-8">      
-        <h5 class="text-white text-left text-2xl font-semibold leading-snug">DFC helped to make profits <br /> even in a bearish market</h5>
-        <p class="text-[#A3A3A3] font-normal text-lg text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
+      <swiper-slide class="swiper-slide flex flex-col justify-between items-start xl:gap-y-6 gap-y-3 xl:pt-16 pt-8 xl:pb-8 pb-5 px-8">
+        <h5 class="text-white text-left xl:text-2xl text-xl font-semibold leading-snug">DFC helped to make profits <br class="xl:block hidden" /> even in a bearish market</h5>
+        <p class="text-[#A3A3A3] font-normal xl:text-lg text-base text-left leading-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.  It has been the industry's standard dummy text.</p>
         <div class="flex flex-row justify-between items-center gap-x-5">
           <img src="./assets/images/micheal-scolfield-03.png" alt="Micheal Scolfield" />
-          <span class="text-[#00FF94] font-medium	text-xl">Micheal Scolfield</span>
+          <span class="text-[#00FF94] font-medium	xl:text-xl text-base">Micheal Scolfield</span>
         </div>
       </swiper-slide>
       <div class="swiper-pagination"></div>
     </swiper-container>
-    <div class="flex flex-row gap-8 justify-center items-center mt-20">
+    <div class="flex flex-row gap-8 justify-center items-center xl:mt-20 mt-8">
       <?php include "./components/button/get-started-02.php"; ?>
     </div>
   </div>

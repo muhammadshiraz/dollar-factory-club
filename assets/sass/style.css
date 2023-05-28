@@ -18,6 +18,10 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
@@ -311,6 +315,32 @@ header .border-line {
   box-shadow: 0px 0px 64px rgba(71, 146, 255, 0.44);
 }
 
+.innerpage {
+  position: relative;
+  background: linear-gradient(180deg, #01327B 0%, #001330 100%);
+  z-index: 0;
+}
+.innerpage::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.innerpage .is-bg {
+  background-image: url(../../assets/images/full-screen-wavy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 240px;
+}
+
 .hero {
   position: relative;
 }
@@ -386,7 +416,7 @@ header .border-line {
   background-position: center right;
 }
 
-.faq {
+.faq.faq-bg {
   background-image: url("../../assets/images/faq-wavy.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -397,7 +427,6 @@ header .border-line {
   display: block;
   width: 100%;
   height: auto;
-  padding: 20px;
   margin: 0;
   list-style: none;
 }
@@ -418,25 +447,11 @@ header .border-line {
 .faq ul.accordion-list li h3 {
   font-weight: 400;
   position: relative;
-  display: block;
   width: 100%;
   height: auto;
-  padding: 0 0 0 0;
   margin: 0;
-  font-size: 18px;
   letter-spacing: 0.01em;
   cursor: pointer;
-}
-.faq ul.accordion-list li h3:before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-image: url("../../assets/images/plus.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0;
-  transition: all 0.3s ease-in-out;
 }
 .faq ul.accordion-list li div.accordion-content {
   position: relative;
@@ -456,4 +471,12 @@ header .border-line {
   line-height: 150%;
   margin: 0 0 15px 0;
   font-size: 14px;
+}
+
+.banner-wavy {
+  background: url("../../assets/images/banner-wavy-bg.png"), linear-gradient(180deg, #001F4D 0%, rgba(0, 31, 77, 0.17) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

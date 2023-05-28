@@ -10,14 +10,11 @@ $(document).ready(function(){
       }
       return false;
     });
-
-
-    // swiper element
+  // swiper element
   const swiperEl = document.querySelector('swiper-container');
-
   // swiper parameters
   const swiperParams = {
-    slidesPerView: 1,
+    slidesPerView: 3,
     breakpoints: {
       640: {
         slidesPerView: 1,
@@ -31,10 +28,8 @@ $(document).ready(function(){
       },
     },
   };
-
   // now we need to assign all parameters to Swiper element
   Object.assign(swiperEl, swiperParams);
-
   // and now initialize it
   swiperEl.initialize();
 });

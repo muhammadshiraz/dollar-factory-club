@@ -1,1 +1,1 @@
-<button  type="button" onclick="location.href = 'get-started.php';" class="text-black text-lg font-medium px-8 py-4 <?php echo $classname; ?> get-started-btn-03">Get Started</button>
+<button  type="button" onclick="location.href = 'get-started.php';" class="text-black xl:text-lg text-base font-medium px-8 py-4 <?php echo $classname; ?> get-started-btn-03">Get Started</button>

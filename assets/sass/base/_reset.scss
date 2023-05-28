@@ -14,8 +14,11 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 100%;	
 	vertical-align: baseline;
+}
+html {
+	overflow-x: hidden;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
