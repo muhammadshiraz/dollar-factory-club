@@ -337,6 +337,9 @@ header .border-line {
   background-size: cover;
   z-index: -1;
 }
+.innerpage.hide-header header {
+  display: none;
+}
 .innerpage .is-bg {
   background-image: url("../../assets/images/full-screen-wavy.png");
   background-repeat: no-repeat;
@@ -363,6 +366,31 @@ header .border-line {
 .innerpage .dfc-courses .dfc-courses-card {
   background: rgba(0, 31, 77, 0.36);
   border-radius: 29px;
+}
+.innerpage .is-compare-plans-bg {
+  background-image: url("../../assets/images/full-screen-wavy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  padding-bottom: 18rem;
+}
+.innerpage .create-account {
+  position: relative;
+  background: linear-gradient(180deg, #01327B 0%, #001330 100%);
+  z-index: 0;
+}
+.innerpage .create-account::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
 .hero {
@@ -397,9 +425,19 @@ header .border-line {
   border-radius: 2px;
 }
 
+.purchase-plan-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+  border-radius: 2px;
+}
+
 .get-started-btn-03 {
   background: #FFFFFF !important;
   border-radius: 2px;
+}
+
+.choose-this-plan-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+  border-radius: 4px;
 }
 
 .signup-btn-to-header {
@@ -558,10 +596,21 @@ form .clipboard img {
   cursor: pointer;
 }
 
-.single-package {
+.single-package,
+.compare-plans {
   background: #001F4D;
   box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
   border-radius: 8px;
+}
+.single-package .compare-plans-off,
+.compare-plans .compare-plans-off {
+  border: 0.5px solid #858BA0;
+  border-radius: 25px;
+  padding: 10px 22px;
+}
+.single-package .compare-plans-list,
+.compare-plans .compare-plans-list {
+  border-top: 1px solid #002864;
 }
 
 .basic-info-tab {

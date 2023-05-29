@@ -1,5 +1,15 @@
-.single-package {
-    background: #001F4D;
-    box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
-    border-radius: 8px;
+.single-package,
+    .compare-plans {
+        background: #001F4D;
+        box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
+        border-radius: 8px;
+        
+    .compare-plans-off {
+        border: 0.5px solid #858BA0;
+        border-radius: 25px;
+        padding: 10px 22px;
+    }
+    .compare-plans-list {
+        border-top: 1px solid #002864;        
+    }
 }
