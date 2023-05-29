@@ -58,6 +58,10 @@ table {
   border-spacing: 0;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 .poppins {
   font-family: "Poppins", sans-serif;
 }
@@ -521,6 +525,43 @@ header .border-line {
   background-size: cover;
   background-position: center;
   width: 100%;
+}
+
+form select,
+form input {
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  outline: none;
+}
+form select option,
+form input option {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+form select::-moz-placeholder, form input::-moz-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+form select::placeholder,
+form input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+form .clipboard img {
+  cursor: pointer;
+}
+
+.single-package {
+  background: #001F4D;
+  box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
+  border-radius: 8px;
 }
 
 .basic-info-tab {

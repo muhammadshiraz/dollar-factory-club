@@ -1,0 +1,27 @@
+form {
+    select,
+    input {
+        background: rgba(255, 255, 255, 0.09);
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        color: $white-color;
+        outline: none;
+        option {
+            font-weight: 400;
+            font-size: 16px;
+            color: $black-color;
+        }
+        &::placeholder {
+            font-weight: 500;
+            font-size: 16px;
+            color: $white-color;
+        }
+    }
+    .clipboard {
+        img {
+            cursor: pointer;
+        }
+    }
+}
