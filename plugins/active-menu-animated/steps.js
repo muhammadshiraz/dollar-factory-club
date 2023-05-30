@@ -19,7 +19,6 @@ $( document ).ready(function() {
       "width": activeWidth + "px"
     });
   });
-
   
   $('.tab-content').hide();
   $('.tab-content:first').show();
@@ -33,5 +32,4 @@ $( document ).ready(function() {
     $(activeTab).fadeIn();
     return false;
   });
-
 });
