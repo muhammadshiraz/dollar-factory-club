@@ -337,7 +337,8 @@ header .border-line {
   background-size: cover;
   z-index: -1;
 }
-.innerpage.hide-header header {
+.innerpage.hide-header-footer header,
+.innerpage.hide-header-footer footer {
   display: none;
 }
 .innerpage .is-bg {
@@ -436,6 +437,11 @@ header .border-line {
 }
 
 .choose-this-plan-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+  border-radius: 4px;
+}
+
+.create-my-account-btn {
   background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
   border-radius: 4px;
 }
@@ -620,17 +626,6 @@ form .clipboard img {
   position: relative;
   border: 1px solid #FFFFFF;
 }
-
-.basic-info-tab a:nth-child(1).active, .selector {
-  border-left: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.basic-info-tab a.active + img {
-  display: none;
-}
-
 .basic-info-tab a {
   display: inline-block;
   text-decoration: inherit;
@@ -646,11 +641,17 @@ form .clipboard img {
   z-index: 1;
   transition-duration: 0.6s;
 }
-
+.basic-info-tab a:nth-child(1).active, .basic-info-tab a:nth-child(1) .selector {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .basic-info-tab a.active {
   color: #001F4D;
 }
-
+.basic-info-tab a.active + img {
+  display: none;
+}
 .basic-info-tab .selector {
   height: 100%;
   position: absolute;
@@ -665,4 +666,17 @@ form .clipboard img {
   .basic-info-tab .selector {
     background-color: transparent;
   }
+}
+
+.create-account-nav ul li {
+  position: relative;
+}
+.create-account-nav ul li a.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%);
 }/*# sourceMappingURL=style.css.map */

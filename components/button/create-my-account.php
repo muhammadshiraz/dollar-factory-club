@@ -1,0 +1,1 @@
+<button  type="button" onclick="location.href = 'start-courses.php';" class="text-white xl:text-lg text-base font-medium px-6 py-3 create-my-account-btn w-full uppercase <?php echo $acclassname; ?>">CREATE MY ACCOUNT</button>

@@ -15,8 +15,9 @@
         background-size: cover;
         z-index: -1;
     }
-    &.hide-header {
-        header {
+    &.hide-header-footer {
+        header,
+        footer {
             display: none;
         }
     }
