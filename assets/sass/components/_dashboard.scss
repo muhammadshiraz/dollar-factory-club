@@ -1,0 +1,35 @@
+.dashboard-wrap {
+    position: relative;
+    // background: linear-gradient(180deg, #01327B 0%, #001330 100%);
+    // z-index: 0;
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-image: url('../../assets/images/background.png');
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     z-index: -1;
+    // }
+    &.hide-header-footer {
+        header,
+        footer {
+            display: none;
+        }
+    }
+    .dashboard-tab-content-wrapper {
+        background: #001B44;
+    }
+    .dashboard-nav {
+        background: #001F4D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .dashboard-header {
+        background: #001F4D;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.19);
+    }
+}

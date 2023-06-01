@@ -32,4 +32,17 @@ $( document ).ready(function() {
     $(activeTab).fadeIn();
     return false;
   });
+
+
+  $('.dashboard-tab-content').hide();
+  $('.dashboard-tab-content:first').show();
+
+  $('#dashboard-nav li a').click(function(){
+    $('#dashboard-nav li a').removeClass('active font-semibold');
+    $(this).addClass('active font-semibold');
+    $('.dashboard-tab-content').hide();
+    var activeTab = $(this).attr('href');
+    $(activeTab).fadeIn();
+    return false;
+  });
 });
