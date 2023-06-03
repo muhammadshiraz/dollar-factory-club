@@ -38,3 +38,12 @@
     border: 1px solid #2880FF;
     border-radius: 2px;
 }
+.subscribe-plan-btn {
+    background: linear-gradient(93.75deg, #266FD9 -8.37%, #43C7FF 111.82%) !important;
+    border-radius: 2px;
+}
+.active-plan-btn {
+    background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+    box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
+    border-radius: 0px 0px 8px 8px;
+}

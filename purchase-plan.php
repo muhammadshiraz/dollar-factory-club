@@ -50,6 +50,7 @@
         $title = "Popular";
         $content = "Distraction-free trading and investing, with more charts, intervals and indicators";
         $price = "$149";
+        $spclassname = "pt-16 pb-12 xl:px-12 px-6";
         $keybenefits = "Key Benefits:";
         $keybenefitslist = array("5 indicators per chart", "2 charts in one layout", "20 active price alerts", "20 active technical alerts on indicators, strategies, or drawings");
         $featuresbtn = "View all features";

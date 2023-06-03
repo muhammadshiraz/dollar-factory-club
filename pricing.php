@@ -13,6 +13,7 @@
                 $title = "Popular";
                 $content = "Distraction-free trading and investing, with more charts, intervals and indicators";
                 $price = "$149";
+                $spclassname = "pt-16 pb-12 xl:px-12 px-6";
                 $keybenefits = "Key Benefits:";
                 $keybenefitslist = array("5 indicators per chart", "2 charts in one layout", "20 active price alerts", "20 active technical alerts on indicators, strategies, or drawings", "Ad-free", "Volume profile indicators", "Custom time intervals", "Multiple watchlists", "Bar Replay on intraday bars");
                 $featuresbtn = "";
@@ -24,6 +25,7 @@
                 $title = "Pro";
                 $content = "Intraday technical analysis for day traders looking to take things to the next level";
                 $price = "$344";
+                $spclassname = "pt-16 pb-12 xl:px-12 px-6";
                 $keybenefits = "Key Benefits:";
                 $keybenefitslist = array("10 indicators per chart", "4 charts in one layout", "100 active price alerts", "100 active technical alerts on indicators, strategies, or drawings", "10 saved chart layouts", "Intraday exotic charts", "Charts based on custom formulas", "Chart data export", "Indicators on indicators");
                 $featuresbtn = "";
@@ -35,6 +37,7 @@
                 $title = "Premium";
                 $content = "Highest precision and maximum data to capture all possible opportunities";
                 $price = "$745";
+                $spclassname = "pt-16 pb-12 xl:px-12 px-6";
                 $keybenefits = "Key Benefits:";
                 $keybenefitslist = array("25 indicators per chart", "8 charts in one layout", "400 active price alerts", "400 active technical alerts on indicators, strategies, or drawings", "Unlimited saved chart layouts", "Second-based intervals", "Alerts that don't expire", "4x more data on charts (20K bars)", "Publishing invite-only indicators", "4x more intraday data in Bar Replay",);
                 $featuresbtn = "";

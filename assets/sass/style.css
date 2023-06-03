@@ -461,6 +461,17 @@ header .border-line {
   border-radius: 2px;
 }
 
+.subscribe-plan-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #43C7FF 111.82%) !important;
+  border-radius: 2px;
+}
+
+.active-plan-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+  box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
+  border-radius: 0px 0px 8px 8px;
+}
+
 .people-say-swiper .swiper-slide {
   border-radius: 11px;
   background: #001B44;
@@ -619,6 +630,18 @@ form .clipboard img {
   border-top: 1px solid #002864;
 }
 
+.subscribe-plan {
+  background: #001F4D;
+  box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
+  border-radius: 8px;
+}
+
+.active-plan {
+  background: #00388B;
+  box-shadow: 0px 0px 32px 4px rgba(0, 84, 248, 0.3);
+  border-radius: 8px;
+}
+
 .dashboard-wrap {
   position: relative;
 }
@@ -633,9 +656,18 @@ form .clipboard img {
   background: #001F4D;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.dashboard-wrap .dashboard-nav ul li a.active {
+  background: #002864;
+}
 .dashboard-wrap .dashboard-header {
   background: #001F4D;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.19);
+}
+.dashboard-wrap .notifications-list li {
+  background: #002864;
+  border: 1px solid #003078;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .basic-info-tab {
