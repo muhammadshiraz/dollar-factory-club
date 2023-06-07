@@ -7,7 +7,7 @@
         <?php
             foreach ($keybenefitslist as $value) {
                 echo "<li class='list-disc ml-4'>$value</li>";
-            } 
+            }
         ?>
     </ul>
     <button type="button" class="text-[#407BFF] text-center font-normal text-sm flex flex-row justify-center items-center gap-x-2 mb-12 <?php echo $featuresclassname; ?>"><?php echo $featuresbtn; ?><img src="./assets/images/down-arrow.png" alt="<?php echo $featuresbtn; ?>" /></button>

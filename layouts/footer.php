@@ -20,5 +20,6 @@
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 <script src="./assets/js/main.js"></script>
 <script src="./plugins/active-menu-animated/steps.js"></script>
+<script src="https://vjs.zencdn.net/8.3.0/video.min.js"></script>
 </body>
 </html>

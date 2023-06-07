@@ -669,6 +669,47 @@ form .clipboard img {
   box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
+.dashboard-wrap .plan-box {
+  width: 50px;
+  height: 50px;
+  background: #002864;
+  border: 1px solid #003078;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.dashboard-wrap .plan-box span {
+  text-shadow: 2px 2px 5px #00FF94;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #00FF94;
+}
+.dashboard-wrap .the-banner-info-card {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%);
+  border-radius: 10px;
+}
+.dashboard-wrap .schedule-at-btn {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%) !important;
+  color: #FFFFFF;
+}
+.dashboard-wrap .video-js {
+  width: 100%;
+}
+.dashboard-wrap .affiliate-box {
+  background: #002864;
+  border: 1px solid #003078;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.dashboard-wrap .the-referral-url-card {
+  background: #002864;
+  border-radius: 10px;
+}
+.dashboard-wrap .the-copy-btn {
+  background: linear-gradient(93.75deg, #266FD9 -8.37%, #00FF94 111.82%);
+  border-radius: 2px;
+}
 
 .basic-info-tab {
   text-align: center;

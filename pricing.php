@@ -52,7 +52,7 @@
     <div class="container mx-auto xl:px-24 px-9 xl:my-16 my-8">
         <div class="xl:overflow-hidden overflow-x-scroll block">
             <?php include "./components/packages/compare-plans/index.php"; ?>
-        </div>        
+        </div>
     </div>
 </section>
 <?php

@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-center items-center single-package <?php echo $spclassname ?>">
+<div class="flex flex-col justify-between items-center single-package <?php echo $spclassname ?>">
     <h3 class="text-white font-semibold text-2xl mb-5"><?php echo $title; ?></h3>
     <p class="text-white text-base text-white text-center"><?php echo $content; ?></p>
     <h1 class="text-[#00FF94] font-medium text-6xl xl:my-12 my-7"><?php echo $price; ?></h1>
