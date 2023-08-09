@@ -1,6 +1,6 @@
 # Dollar Factory Club (DFC) - Empowering Traders Through Liquidity-Based Strategies
 
-![DFC Logo](screeshot.jpg)
+![DFC Logo](screenshot.jpg)
 
 DFC is not just another trading education platform; it's a paradigm shift in the way traders approach the markets. Our primary goal is to enlighten traders about institutional traps and equip them with the knowledge to navigate these treacherous waters successfully. At DFC, you won't find the usual arsenal of indicators, chart patterns, support and resistance (SR), trend lines, or other ineffective strategies. We're here to debunk the noise and offer real insights into how the market truly operates.
 
