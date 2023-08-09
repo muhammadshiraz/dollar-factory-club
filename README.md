@@ -55,4 +55,4 @@ This README.md file and its content are for illustration purposes only and shoul
 
 ---
 
-Thank you for checking out our Laravel Dollar Factory Group App project! For any inquiries or further information, feel free to [contact us](mailto:muhammadshiraz996@gmail.com).
+Thank you for checking out our Dollar Factory Group App! For any inquiries or further information, feel free to [contact us](mailto:muhammadshiraz996@gmail.com).
