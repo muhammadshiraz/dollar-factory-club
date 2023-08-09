@@ -1,6 +1,6 @@
 # Dollar Factory Club (DFC) - Empowering Traders Through Liquidity-Based Strategies
 
-![DFC Logo](assets/images/logo.svg)
+<div align="center">![DFC Logo](assets/images/logo.svg)</div>
 
 DFC is not just another trading education platform; it's a paradigm shift in the way traders approach the markets. Our primary goal is to enlighten traders about institutional traps and equip them with the knowledge to navigate these treacherous waters successfully. At DFC, you won't find the usual arsenal of indicators, chart patterns, support and resistance (SR), trend lines, or other ineffective strategies. We're here to debunk the noise and offer real insights into how the market truly operates.
 
@@ -49,7 +49,7 @@ Join DFC today and embark on a journey to become a savvy trader who thrives in t
 
 **Usage of this app is strictly prohibited without explicit written permission from the project owner.**
 
-If you are interested in using, modifying, or distributing this project, please contact the project owner at mailto:muhammadshiraz996@gmail.com to inquire about licensing and usage terms.
+If you are interested in using, modifying, or distributing this project, please contact the project owner at muhammadshiraz996@gmail.com to inquire about licensing and usage terms.
 
 This README.md file and its content are for illustration purposes only and should not be used or distributed without permission.
 
